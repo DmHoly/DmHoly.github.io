@@ -1,0 +1,10 @@
+/* Réduit la taille des titres de posts sur la home et listes */
+.archive__item-title {
+  font-size: 1.3rem !important;   /* ou ajuste à 1.1rem, 1.2rem… */
+  font-weight: 600 !important;
+}
+
+/* Réduit aussi la taille sur les pages individuelles */
+.page__title, .single-title {
+  font-size: 1.5rem !important;
+}
