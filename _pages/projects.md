@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-<h1 style="text-align:center;margin-bottom:30px;">Mes projets</h1>
+<h1 style="text-align:center;margin-bottom:30px;">Discover some of my Projects</h1>
 
 <style>
 .projects-grid {
@@ -74,7 +74,7 @@ permalink: /projects/
     <div class="project-title">{{ project.title }}</div>
     <div class="project-desc">{{ project.description }}</div>
     {% if project.url %}
-      <a class="project-link" href="{{ project.url }}" target="_blank">Voir le projet</a>
+      <a class="project-link" href="{{ project.url }}" target="_blank">See the project</a>
     {% endif %}
   </div>
 {% endfor %}

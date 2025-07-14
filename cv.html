@@ -16,7 +16,7 @@ body {
 }
 .cv-container {
   display: flex;
-  max-width: 1400px !important;
+  max-width: 1600px !important;
   width: 100% !important;
   margin: 40px auto !important;
   box-shadow: 0 2px 24px #0001;
@@ -203,7 +203,34 @@ body {
     display: none !important;
   }
 }
-
+.download-btn {
+  display: inline-flex;
+  align-items: center;
+  background: #22b7ca; /* Ajuste la teinte si tu veux */
+  color: #fff !important;
+  padding: 10px 26px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(23, 140, 151, 0.13);
+  margin: 18px 0;
+  border: none;
+  font-size: 1.07em;
+  gap: 8px;
+  opacity: 0.97;
+  transition: background 0.15s, transform 0.12s;
+  letter-spacing: 0.01em;
+}
+.download-btn svg {
+  color: #fff !important;
+  fill: #fff !important;
+}
+.download-btn:hover {
+  background: #178c97; /* Même gamme, plus foncé */
+  color: #fff !important;
+  transform: translateY(-1.5px) scale(1.04);
+  opacity: 1;
+}
 </style>
 
 <div class="cv-container">
@@ -256,10 +283,15 @@ body {
   <!-- RIGHT SIDE -->
   <div class="cv-right">
   
-    <a href="/assets/cv_mehdi_daanoune.pdf" download class="btn-download-cv" target="_blank" rel="noopener">
-      📄 Download CV (PDF)
-    </a>
-  
+  <a href="{{ '/assets/images/CV_daanoune.pdf' | relative_url }}" 
+    download="Mehdi_Daanoune_CV.pdf" 
+    class="download-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" style="margin-right:8px;vertical-align:middle" viewBox="0 0 16 16">
+      <path d="M.5 9.9v2.7c0 .3.1.6.3.8.2.2.5.3.8.3h12c.3 0 .6-.1.8-.3.2-.2.3-.5.3-.8V9.9a.5.5 0 0 1 1 0v2.7c0 .6-.2 1.2-.7 1.6-.4.4-1 .7-1.6.7H1.6c-.6 0-1.2-.2-1.6-.7A2.2 2.2 0 0 1 0 12.6V9.9a.5.5 0 0 1 1 0zm7.5.4a.5.5 0 0 1-.5-.5V2.5a.5.5 0 0 1 1 0v7.3l2.15-2.15a.5.5 0 0 1 .7.7l-3 3a.5.5 0 0 1-.7 0l-3-3a.5.5 0 1 1 .7-.7L8 10.3z"/>
+    </svg>
+    Download CV (PDF)
+  </a>
+
     <img class="profile-img" src="{{ site.data.cv.profile.image }}" alt="Photo profil {{ site.data.cv.profile.name }}">
     <h2>{{ site.data.cv.profile.name }}</h2>
     <div class="job-title">{{ site.data.cv.profile.title | newline_to_br }}</div>
@@ -297,3 +329,4 @@ body {
     </ul>
   </div>
 </div>
+

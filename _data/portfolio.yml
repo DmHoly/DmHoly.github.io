@@ -10,3 +10,13 @@
   image: /assets/images/dataPipe.png
   description: "An end-to-end solution for data pipeline automation and analytics."
   url: "/projects/data-automation/"
+- title: Retrieval-Augmented Generation with LLMs
+  image: /assets/images/project-rag.png
+  description: >
+    Implementation of a Retrieval-Augmented Generation (RAG) pipeline using OpenAI/LLM models to provide accurate, up-to-date answers from custom documents. Integration with vector databases, semantic search.
+  url: /projects/RAG/
+- title: Machine Translation with Transformers
+  image: /assets/images/project-translation.png
+  description: >
+    Built an end-to-end machine translation system using pretrained models. Deployed a translation API for English to French translation.
+  url: /projects/Translation/

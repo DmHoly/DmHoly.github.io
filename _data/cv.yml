@@ -7,15 +7,18 @@ profile:
   linkedin: "https://www.linkedin.com/in/mehdi-daanoune"
   image: "/assets/images/photo_mehdi.jpg"
   summary: |
-    I build practical solutions from complex data and models, automating routine tasks with dashboards and predictive tools. Experienced in physics, data science, ML deployment. 
-    I act as a bridge between physics and data teams, valuing collaboration and impactful knowledge sharing.
+    I develop practical solutions from complex data and models, automating routine tasks with dashboards and predictive tools. With experience in both physics and data science, I specialize in deploying ML models and bridging the gap between technical teams and subject matter experts. 
+    I value collaboration and impactful knowledge sharing to ensure solutions are both robust and aligned with business needs.
+
+languages:
+  - "Français/French (natif)"
+  - "English (fluent professional proficiency)"
 
 skills:
   - title: "Data Science"
     desc:
-      - "Exploratory data analysis statistical testing with SciPy: Shapiro-Wilk, Kolmogorov-Smirnov and Poisson tests"
-      - "Python (NumPy, Pandas)"
-      - "scikit-learn, ML pipelines (dagster)"
+      - "Python (NumPy, Pandas, scipy)"
+      - "Machine learning (scikit-learn)"
       - "Deep learning (PyTorch, TensorFlow/Keras)"
   - title: "Numerical Modeling & Simulations"
     desc:
@@ -30,14 +33,6 @@ skills:
   - title: "CI/CD & Automation"
     desc:
       - "Self-training on Dagger and Docker for CI/CD pipelines"
-  - title: "Mentorship & Supervision"
-    desc:
-      - "PhD/intern supervision and technical guidance"
-      - "Onboarding junior members"
-
-languages:
-  - "Français (natif)"
-  - "Anglais (fluent professional proficiency)"
 
 experiences:
   - title: "Senior R&D Engineer — Modeling, Simulation & Data Science"
@@ -56,16 +51,17 @@ experiences:
     location: "Saint Etienne"
     date: "Jan 2016 – Mar 2018"
     bullets:
-      - "Optimized algorithms for silicon photonics simulations."
-      - "Performed statistical modeling for device performance analysis."
+      - "Optimized algorithms for silicon photonics."
+      - "Generation of large simulation dataset to correlate the model."
+      - "Performed modeling for device performance analysis."
       - "2 peer-reviewed publications."
 
 education:
-  - degree: "PhD Characterization of semiconductor, Analysis of thin films and nanomaterials"
+  - degree: "PhD Characterization, Analysis and simulation"
     school: "École Doctorale EEATS, Grenoble INP IMEP-LAHC"
     date: "oct 2011 - feb 2015"
     details:
-      - "Multi-technique characterization, statistical modeling, pattern recognition."
+      - "Multi-technique characterization, TCAD modeling."
       - "4 peer-reviewed publications."
   - degree: "Master 2 Energy Physics"
     school: "Grenoble INP-UGA"
@@ -75,4 +71,4 @@ education:
     date: "2009 - 2010"
   - degree: "Licence Physics"
     school: "Université de Picardie Jules Verne"
-    date: "2007-2009 (L1/L2/L3)"
+    date: "2007 (L1), 2008 (L2), 2009 (L3)"
