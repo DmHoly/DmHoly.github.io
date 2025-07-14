@@ -1,0 +1,20 @@
+- image_path: /assets/images/pinns.png
+  title: "Physics-Informed Neural Networks"
+  excerpt: "Development of PINNs to solve partial differential equations, combining deep learning with physical modeling for robust and interpretable simulations."
+  url: "/projects/pinns/"
+  btn_label: "See more"
+  btn_class: "btn--primary"
+
+- image_path: /assets/images/dataPipe.png
+  title: "Data Automation Platform"
+  excerpt: "An end-to-end solution for data pipeline automation and analytics."
+  url: "/projects/data-automation/"
+  btn_label: "See more"
+  btn_class: "btn--primary"
+
+- image_path: /assets/images/ML_for_SC.png
+  title: "ML for Semiconductors"
+  excerpt: "Machine learning models improving semiconductor yield and performance prediction."
+  url: "/projects/semiconductor-ml/"
+  btn_label: "See more"
+  btn_class: "btn--primary"
