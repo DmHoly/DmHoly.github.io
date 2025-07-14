@@ -82,14 +82,6 @@ footer:
       icon: "fas fa-fw fa-envelope"
       url: "mailto:mehdi.daanoune@gmail.com"
 
-header:
-  overlay_image: /assets/images/banner.png 
-  overlay_filter: 0.2 # effet foncé
-  caption: "Welcome to my Portfolio"
-  actions:
-    - label: "Découvrir mes projets"
-      url: "/projects/"
-
 defaults:
   # _posts
   - scope:
