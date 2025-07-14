@@ -1,0 +1,223 @@
+---
+layout: default  # ou le nom de ton layout principal (souvent 'default' ou 'page')
+title: CV
+permalink: /cv/
+---
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV | {{ site.title }}</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f3f4f6;
+      margin: 0;
+      color: #333;
+    }
+    .cv-container {
+      display: flex;
+      max-width: 900px;
+      margin: 40px auto;
+      box-shadow: 0 2px 24px #0001;
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .cv-left {
+      flex: 2;
+      padding: 40px 30px;
+    }
+    .cv-right {
+      flex: 1;
+      background: #3198ad;
+      color: #fff;
+      padding: 40px 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #fff;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 8px #0002;
+    }
+    .cv-right h2 {
+      margin: 0 0 8px 0;
+      font-size: 2em;
+    }
+    .cv-right .job-title {
+      font-weight: 500;
+      margin-bottom: 24px;
+      font-size: 1.1em;
+    }
+    .contact-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 28px 0;
+      width: 100%;
+    }
+    .contact-list li {
+      display: flex;
+      align-items: center;
+      margin-bottom: 12px;
+      font-size: 1em;
+      word-break: break-all;
+    }
+    .contact-list i {
+      width: 22px;
+      margin-right: 12px;
+      opacity: 0.9;
+    }
+    .cv-section-title {
+      font-size: 1.25em;
+      margin: 28px 0 16px 0;
+      font-weight: 600;
+      letter-spacing: 1px;
+      color: #3198ad;
+    }
+    .cv-right .cv-section-title {
+      color: #fff;
+    }
+    .edu-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 16px 0;
+      width: 100%;
+    }
+    .edu-list li {
+      margin-bottom: 12px;
+    }
+    .edu-title {
+      font-weight: 600;
+    }
+    .cv-left h3 {
+      margin: 0 0 4px 0;
+      font-size: 1.08em;
+      color: #3198ad;
+      font-weight: 600;
+    }
+    .cv-left .job-location {
+      color: #888;
+      font-size: 0.97em;
+      margin-bottom: 6px;
+    }
+    .cv-left .job-dates {
+      float: right;
+      color: #bbb;
+      font-size: 0.97em;
+      font-weight: 400;
+    }
+    .cv-left ul {
+      margin: 7px 0 12px 22px;
+      padding: 0;
+    }
+    .cv-left li {
+      margin-bottom: 2px;
+    }
+    @media (max-width: 900px) {
+      .cv-container {
+        flex-direction: column;
+      }
+      .cv-right, .cv-left {
+        padding: 32px 16px;
+      }
+    }
+    @media (max-width: 600px) {
+      .cv-right, .cv-left {
+        padding: 18px 6px;
+      }
+    }
+  </style>
+</head>
+<body>
+<div class="cv-container">
+
+  <!-- LEFT SIDE -->
+  <div class="cv-left">
+    <div>
+      <div class="cv-section-title"><i class="fa fa-user"></i> PROFIL</div>
+      <p>
+        Résumez votre parcours ici, en quelques lignes.<br>
+        Exemple : Développeur Full Stack passionné, avec 5 ans d'expérience dans le développement web, conception d'API et l'UI/UX. Curieux, créatif, et toujours prêt à apprendre de nouvelles technologies.
+      </p>
+    </div>
+
+    <div>
+      <div class="cv-section-title"><i class="fa fa-briefcase"></i> EXPÉRIENCE</div>
+      <div>
+        <h3>Lead Developer <span class="job-dates">2019 – Présent</span></h3>
+        <div class="job-location">Startup Hubs, Paris</div>
+        <p>
+          Description du poste, missions réalisées, technologies utilisées, réussites majeures, etc.
+        </p>
+        <ul>
+          <li>Responsabilité A</li>
+          <li>Responsabilité B</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Développeur Front-End <span class="job-dates">2017 – 2019</span></h3>
+        <div class="job-location">WebAgency, Lyon</div>
+        <p>
+          Quelques lignes sur cette expérience…
+        </p>
+        <ul>
+          <li>Mission C</li>
+          <li>Mission D</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div class="cv-section-title"><i class="fa fa-graduation-cap"></i> FORMATION</div>
+      <div>
+        <h3>MSc Informatique <span class="job-dates">2015 – 2017</span></h3>
+        <div class="job-location">Université de Paris</div>
+      </div>
+      <div>
+        <h3>Licence Mathématiques <span class="job-dates">2012 – 2015</span></h3>
+        <div class="job-location">Université de Lyon</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- RIGHT SIDE -->
+  <div class="cv-right">
+    <img class="profile-img" src="https://randomuser.me/api/portraits/men/31.jpg" alt="Photo profil">
+    <h2>Jean Dupont</h2>
+    <div class="job-title">Développeur Full Stack</div>
+
+    <ul class="contact-list">
+      <li><i class="fa fa-envelope"></i> jean.dupont@email.com</li>
+      <li><i class="fa fa-phone"></i> 06 12 34 56 78</li>
+      <li><i class="fa fa-globe"></i> www.portfolio.com</li>
+      <li><i class="fab fa-github"></i> github.com/jeandupont</li>
+      <li><i class="fab fa-linkedin"></i> linkedin.com/in/jeandupont</li>
+    </ul>
+
+    <div class="cv-section-title">COMPÉTENCES</div>
+    <ul class="edu-list">
+      <li>JavaScript, React, Node.js</li>
+      <li>HTML/CSS, SASS</li>
+      <li>Python, Django</li>
+      <li>SQL, MongoDB</li>
+    </ul>
+
+    <div class="cv-section-title">LANGUES</div>
+    <ul class="edu-list">
+      <li>Français (Natif)</li>
+      <li>Anglais (Courant)</li>
+    </ul>
+  </div>
+
+</div>
+</body>
+</html>
