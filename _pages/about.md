@@ -5,8 +5,6 @@ layout: single
 author_profile: true
 ---
 
-# About Me
-
 ## Mehdi Daanoune
 
 **Senior R&D Engineer | Modeling, Simulation & Data Science**  
@@ -47,11 +45,11 @@ Senior R&D Engineer specializing in numerical modeling, simulations, and data sc
 ## Key Skills
 
 - Numerical modeling: Silvaco TCAD, FDTD, photonic/semiconductor
-- Machine learning: Python, scikit-learn, deep learning
+- Machine learning: Python, scikit-learn, deep learning (TensorFlow/Keras, PyTorch)
 - Data pipelines: NumPy, Pandas, ETL
-- Deployment: FastAPI, Gradio, Dash, PyQt5
+- Deployment: FastAPI, Gradio, streamlit, PyQt5, (dash and niceGUI learning)
 - Databases: SQL, SQLite, DuckDB
-- Leadership: PhD supervision, patents, team management
+- Mentoring & knowledge sharing: Supervision of PhD students, technical training, onboarding, and support for new engineers.
 
 ---
 
