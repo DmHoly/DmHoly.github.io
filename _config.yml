@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Mehdi Daanoune"
-  avatar : "/assets/images/bio-photo.JPG"     
+  avatar : "/assets/images/bio-photo.JPG"
   bio    : "Senior R&D Engineer specializing in modeling, simulation & data science. 14 patents. Based in Grenoble, France."
   links:
     - label: "LinkedIn"

@@ -1,8 +1,69 @@
 ---
 permalink: /about/
 title: "About"
+layout: single
+author_profile: true
 ---
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+# About Me
 
-Cupidatat ea do et in excepteur in. Ad nostrud ut est esse eu duis ea sunt eiusmod. Aliquip tempor veniam sint elit fugiat. Velit incididunt laboris amet incididunt labore dolore irure velit excepteur commodo deserunt laborum. Consectetur eu fugiat veniam veniam Lorem labore magna eiusmod. Ea occaecat reprehenderit pariatur consectetur minim labore ut aliquip.
+## Mehdi Daanoune
+
+**Senior R&D Engineer | Modeling, Simulation & Data Science**  
+Grenoble, France  
+[LinkedIn](https://linkedin.com/in/mehdi-daanoune)  
+mehdi.daanoune@gmail.com
+
+---
+
+### Profile
+
+Senior R&D Engineer specializing in numerical modeling, simulations, and data science. 7+ years experience, 14 patents, creative problem solver.
+
+---
+
+## Education
+
+- **PhD Electronics**, École Doctorale EEATS, 2014  
+- **MSc Energy Physics**, Grenoble INP-UGA, 2011  
+- **BSc Physics**, Université de Picardie Jules Verne, 2009
+
+---
+
+## Experience
+
+- **Senior R&D Engineer, Aledia, Grenoble (2018–Present):**
+  - Enhanced simulation accuracy with data-driven modeling
+  - Automated data workflows and interactive dashboards
+  - Integrated ML tools for device modeling & optimization
+  - Supervised PhD research, authored 14 patents
+
+- **Postdoctoral Researcher, Laboratoire Hubert Curien (2016–2018):**
+  - Optimized algorithms for silicon photonics
+  - Statistical modeling for performance analysis
+
+---
+
+## Key Skills
+
+- Numerical modeling: Silvaco TCAD, FDTD, photonic/semiconductor
+- Machine learning: Python, scikit-learn, deep learning
+- Data pipelines: NumPy, Pandas, ETL
+- Deployment: FastAPI, Gradio, Dash, PyQt5
+- Databases: SQL, SQLite, DuckDB
+- Leadership: PhD supervision, patents, team management
+
+---
+
+## Publications & Patents
+
+- [Publication list / Google Scholar link (if you have one)](https://scholar.google.com/)
+- 14 patents (details on request)
+
+---
+
+## Contact
+
+- Email: mehdi.daanoune@gmail.com  
+- [LinkedIn](https://linkedin.com/in/mehdi-daanoune)
+
