@@ -1,223 +1,299 @@
 ---
-layout: default  # ou le nom de ton layout principal (souvent 'default' ou 'page')
+layout: default
 title: CV
 permalink: /cv/
 ---
 
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV | {{ site.title }}</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-  <style>
-    body {
-      font-family: 'Segoe UI', Arial, sans-serif;
-      background: #f3f4f6;
-      margin: 0;
-      color: #333;
-    }
-    .cv-container {
-      display: flex;
-      max-width: 900px;
-      margin: 40px auto;
-      box-shadow: 0 2px 24px #0001;
-      background: #fff;
-      border-radius: 10px;
-      overflow: hidden;
-    }
-    .cv-left {
-      flex: 2;
-      padding: 40px 30px;
-    }
-    .cv-right {
-      flex: 1;
-      background: #3198ad;
-      color: #fff;
-      padding: 40px 30px;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .profile-img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      border-radius: 50%;
-      border: 6px solid #fff;
-      margin-bottom: 16px;
-      box-shadow: 0 1px 8px #0002;
-    }
-    .cv-right h2 {
-      margin: 0 0 8px 0;
-      font-size: 2em;
-    }
-    .cv-right .job-title {
-      font-weight: 500;
-      margin-bottom: 24px;
-      font-size: 1.1em;
-    }
-    .contact-list {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 28px 0;
-      width: 100%;
-    }
-    .contact-list li {
-      display: flex;
-      align-items: center;
-      margin-bottom: 12px;
-      font-size: 1em;
-      word-break: break-all;
-    }
-    .contact-list i {
-      width: 22px;
-      margin-right: 12px;
-      opacity: 0.9;
-    }
-    .cv-section-title {
-      font-size: 1.25em;
-      margin: 28px 0 16px 0;
-      font-weight: 600;
-      letter-spacing: 1px;
-      color: #3198ad;
-    }
-    .cv-right .cv-section-title {
-      color: #fff;
-    }
-    .edu-list {
-      list-style: none;
-      padding: 0;
-      margin: 0 0 16px 0;
-      width: 100%;
-    }
-    .edu-list li {
-      margin-bottom: 12px;
-    }
-    .edu-title {
-      font-weight: 600;
-    }
-    .cv-left h3 {
-      margin: 0 0 4px 0;
-      font-size: 1.08em;
-      color: #3198ad;
-      font-weight: 600;
-    }
-    .cv-left .job-location {
-      color: #888;
-      font-size: 0.97em;
-      margin-bottom: 6px;
-    }
-    .cv-left .job-dates {
-      float: right;
-      color: #bbb;
-      font-size: 0.97em;
-      font-weight: 400;
-    }
-    .cv-left ul {
-      margin: 7px 0 12px 22px;
-      padding: 0;
-    }
-    .cv-left li {
-      margin-bottom: 2px;
-    }
-    @media (max-width: 900px) {
-      .cv-container {
-        flex-direction: column;
-      }
-      .cv-right, .cv-left {
-        padding: 32px 16px;
-      }
-    }
-    @media (max-width: 600px) {
-      .cv-right, .cv-left {
-        padding: 18px 6px;
-      }
-    }
-  </style>
-</head>
-<body>
-<div class="cv-container">
+<style>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f3f4f6;
+  margin: 0;
+  color: #333;
+}
+.about-me-text {
+  text-align: justify;
+}
+.cv-container {
+  display: flex;
+  max-width: 1400px !important;
+  width: 100% !important;
+  margin: 40px auto !important;
+  box-shadow: 0 2px 24px #0001;
+  background: #fff;
+  border-radius: 14px;
+  overflow: hidden;
+}
+.cv-left {
+  flex: 2;
+  padding: 40px 36px;
+}
+.cv-right {
+  flex: 1;
+  background: #177e8c;
+  color: #fff;
+  padding: 48px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-download-cv {
+  display: inline-block;
+  background-color: #177e8c;
+  color: #fff;
+  padding: 12px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+.btn-download-cv:hover {
+  background-color: #125f67;
+}
+.profile-img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 8px #0002;
+}
+.cv-right h2 {
+  margin: 0 0 8px 0;
+  font-size: 2em;
+  text-align: center;
+}
+.cv-right .job-title {
+  font-weight: 500;
+  margin-bottom: 24px;
+  font-size: 1.1em;
+  text-align: center;
+  white-space: pre-line;
+}
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px 0;
+  width: 100%;
+}
+.contact-list li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 1em;
+  word-break: break-all;
+}
+.contact-list i {
+  width: 22px;
+  margin-right: 12px;
+  opacity: 0.9;
+}
+.cv-section-title {
+  font-size: 1.25em;
+  margin: 28px 0 16px 0;
+  font-weight: 600;
+  letter-spacing: 1px;
+  color: #177e8c;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.cv-right .cv-section-title {
+  color: #fff;
+}
+.edu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+  width: 100%;
+}
+.edu-list > li {
+  margin-bottom: 20px;
+  line-height: 1.4em;
+}
+.edu-list > li > b {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 6px;
+  font-size: 1.1em;
+  color: #eef7f8;
+}
+.edu-list > li > ul {
+  list-style: disc inside;
+  margin: 6px 0 0 12px;
+  padding: 0;
+  color: #d1e5e8;
+  font-weight: 400;
+}
+.edu-title {
+  font-weight: 600;
+}
+.cv-left h3 {
+  margin: 0 0 4px 0;
+  font-size: 1.08em;
+  color: #177e8c;
+  font-weight: 600;
+}
+.cv-left .job-location {
+  color: #888;
+  font-size: 0.97em;
+  margin-bottom: 6px;
+}
+.cv-left .job-dates {
+  float: right;
+  color: #bbb;
+  font-size: 0.97em;
+  font-weight: 400;
+}
+.cv-left ul {
+  margin: 7px 0 12px 22px;
+  padding: 0;
+}
+.cv-left li {
+  margin-bottom: 2px;
+}
+@media (max-width: 1200px) {
+  .cv-container {
+    max-width: 1000px !important;
+  }
+}
+@media (max-width: 900px) {
+  .cv-container {
+    flex-direction: column;
+    max-width: 98vw !important;
+  }
+  .cv-right, .cv-left {
+    padding: 32px 16px;
+  }
+}
+@media (max-width: 600px) {
+  .cv-right, .cv-left {
+    padding: 18px 6px;
+  }
+}
+@media print {
+  body {
+    background: white !important;
+    color: #222 !important;
+    font-size: 12pt !important;
+  }
+  .cv-container {
+    box-shadow: none !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+  }
+  .cv-left, .cv-right {
+    padding: 10px !important;
+    box-shadow: none !important;
+  }
+  .cv-right {
+    background: white !important;
+    color: #222 !important;
+  }
+  a, a:visited {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+  }
+  /* Cacher tout ce qui n'est pas utile à l'impression */
+  nav, .btn-download-cv, footer, header {
+    display: none !important;
+  }
+}
 
+</style>
+
+<div class="cv-container">
   <!-- LEFT SIDE -->
   <div class="cv-left">
+
+    <!-- About me -->
     <div>
-      <div class="cv-section-title"><i class="fa fa-user"></i> PROFIL</div>
-      <p>
-        Résumez votre parcours ici, en quelques lignes.<br>
-        Exemple : Développeur Full Stack passionné, avec 5 ans d'expérience dans le développement web, conception d'API et l'UI/UX. Curieux, créatif, et toujours prêt à apprendre de nouvelles technologies.
-      </p>
+      <div class="cv-section-title"><i class="fa fa-user"></i> About me</div>
+      <p class="about-me-text">{{ site.data.cv.profile.summary }}</p>
     </div>
 
+    <!-- Experience -->
     <div>
-      <div class="cv-section-title"><i class="fa fa-briefcase"></i> EXPÉRIENCE</div>
-      <div>
-        <h3>Lead Developer <span class="job-dates">2019 – Présent</span></h3>
-        <div class="job-location">Startup Hubs, Paris</div>
-        <p>
-          Description du poste, missions réalisées, technologies utilisées, réussites majeures, etc.
-        </p>
-        <ul>
-          <li>Responsabilité A</li>
-          <li>Responsabilité B</li>
-        </ul>
-      </div>
-      <div>
-        <h3>Développeur Front-End <span class="job-dates">2017 – 2019</span></h3>
-        <div class="job-location">WebAgency, Lyon</div>
-        <p>
-          Quelques lignes sur cette expérience…
-        </p>
-        <ul>
-          <li>Mission C</li>
-          <li>Mission D</li>
-        </ul>
-      </div>
+      <div class="cv-section-title"><i class="fa fa-briefcase"></i> EXPERIENCE</div>
+      {% for exp in site.data.cv.experiences %}
+        <div>
+          <h3>{{ exp.title }}
+            <span class="job-dates">{{ exp.date }}</span>
+          </h3>
+          <div class="job-location">{{ exp.company }}, {{ exp.location }}</div>
+          <ul>
+            {% for bullet in exp.bullets %}
+              <li>{{ bullet }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      {% endfor %}
     </div>
 
+    <!-- Education -->
     <div>
-      <div class="cv-section-title"><i class="fa fa-graduation-cap"></i> FORMATION</div>
-      <div>
-        <h3>MSc Informatique <span class="job-dates">2015 – 2017</span></h3>
-        <div class="job-location">Université de Paris</div>
-      </div>
-      <div>
-        <h3>Licence Mathématiques <span class="job-dates">2012 – 2015</span></h3>
-        <div class="job-location">Université de Lyon</div>
-      </div>
+      <div class="cv-section-title"><i class="fa fa-graduation-cap"></i> EDUCATION</div>
+      {% for edu in site.data.cv.education %}
+        <div>
+          <h3>{{ edu.degree }} <span class="job-dates">{{ edu.date }}</span></h3>
+          <div class="job-location">{{ edu.school }}</div>
+          {% if edu.details %}
+            <ul>
+              {% for detail in edu.details %}
+                <li>{{ detail }}</li>
+              {% endfor %}
+            </ul>
+          {% endif %}
+        </div>
+      {% endfor %}
     </div>
   </div>
 
   <!-- RIGHT SIDE -->
   <div class="cv-right">
-    <img class="profile-img" src="https://randomuser.me/api/portraits/men/31.jpg" alt="Photo profil">
-    <h2>Jean Dupont</h2>
-    <div class="job-title">Développeur Full Stack</div>
+  
+    <a href="/assets/cv_mehdi_daanoune.pdf" download class="btn-download-cv" target="_blank" rel="noopener">
+      📄 Download CV (PDF)
+    </a>
+  
+    <img class="profile-img" src="{{ site.data.cv.profile.image }}" alt="Photo profil {{ site.data.cv.profile.name }}">
+    <h2>{{ site.data.cv.profile.name }}</h2>
+    <div class="job-title">{{ site.data.cv.profile.title | newline_to_br }}</div>
 
     <ul class="contact-list">
-      <li><i class="fa fa-envelope"></i> jean.dupont@email.com</li>
-      <li><i class="fa fa-phone"></i> 06 12 34 56 78</li>
-      <li><i class="fa fa-globe"></i> www.portfolio.com</li>
-      <li><i class="fab fa-github"></i> github.com/jeandupont</li>
-      <li><i class="fab fa-linkedin"></i> linkedin.com/in/jeandupont</li>
+      <li><i class="fa fa-map-marker-alt"></i> {{ site.data.cv.profile.location }}</li>
+      <li><i class="fa fa-envelope"></i> {{ site.data.cv.profile.email }}</li>
+      <li><i class="fa fa-phone"></i> {{ site.data.cv.profile.phone }}</li>
+      <li><i class="fab fa-linkedin"></i>
+        <a style="color:#fff;text-decoration:underline;" href="{{ site.data.cv.profile.linkedin }}" target="_blank">
+          {{ site.data.cv.profile.linkedin | replace: "https://", "" }}
+        </a>
+      </li>
     </ul>
 
-    <div class="cv-section-title">COMPÉTENCES</div>
+    <div class="cv-section-title">SKILLS</div>
     <ul class="edu-list">
-      <li>JavaScript, React, Node.js</li>
-      <li>HTML/CSS, SASS</li>
-      <li>Python, Django</li>
-      <li>SQL, MongoDB</li>
+      {% for skill in site.data.cv.skills %}
+        <li>
+          <b>{{ skill.title }}:</b>
+          <ul>
+            {% for item in skill.desc %}
+              <li>{{ item }}</li>
+            {% endfor %}
+          </ul>
+        </li>
+      {% endfor %}
     </ul>
 
-    <div class="cv-section-title">LANGUES</div>
+    <div class="cv-section-title">LANGUAGES</div>
     <ul class="edu-list">
-      <li>Français (Natif)</li>
-      <li>Anglais (Courant)</li>
+      {% for lang in site.data.cv.languages %}
+        <li>{{ lang }}</li>
+      {% endfor %}
     </ul>
   </div>
-
 </div>
-</body>
-</html>

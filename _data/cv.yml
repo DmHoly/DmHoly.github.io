@@ -1,0 +1,78 @@
+profile:
+  name: "Mehdi Daanoune"
+  title: "Senior R&D Data Science Modeling & Simulation"
+  location: "Grenoble, France"
+  email: "mehdi.daanoune@gmail.com"
+  phone: "+33 6 20 76 81 71"
+  linkedin: "https://www.linkedin.com/in/mehdi-daanoune"
+  image: "/assets/images/photo_mehdi.jpg"
+  summary: |
+    I build practical solutions from complex data and models, automating routine tasks with dashboards and predictive tools. Experienced in physics, data science, ML deployment. 
+    I act as a bridge between physics and data teams, valuing collaboration and impactful knowledge sharing.
+
+skills:
+  - title: "Data Science"
+    desc:
+      - "Exploratory data analysis statistical testing with SciPy: Shapiro-Wilk, Kolmogorov-Smirnov and Poisson tests"
+      - "Python (NumPy, Pandas)"
+      - "scikit-learn, ML pipelines (dagster)"
+      - "Deep learning (PyTorch, TensorFlow/Keras)"
+  - title: "Numerical Modeling & Simulations"
+    desc:
+      - "Photonic FDTD Rsosft and semiconductor modeling Silvaco TCAD"
+  - title: "Databases"
+    desc:
+      - "Writing SQL queries for data analysis"
+      - "Built small databases with SQLite, currently prefer DuckDB for analytics/flexibility"
+  - title: "Deployment/dashboards"
+    desc:
+      - "FastAPI, Gradio, PyQt5, Streamlit basics of Dash"
+  - title: "CI/CD & Automation"
+    desc:
+      - "Self-training on Dagger and Docker for CI/CD pipelines"
+  - title: "Mentorship & Supervision"
+    desc:
+      - "PhD/intern supervision and technical guidance"
+      - "Onboarding junior members"
+
+languages:
+  - "Français (natif)"
+  - "Anglais (fluent professional proficiency)"
+
+experiences:
+  - title: "Senior R&D Engineer — Modeling, Simulation & Data Science"
+    company: "Aledia"
+    location: "Grenoble"
+    date: "Mar 2018 – Present"
+    bullets:
+      - "Enhanced simulation accuracy with data-driven predictive modeling."
+      - "Pixel design (optics and electronics)."
+      - "Developed automated data processing workflows and interactive dashboards."
+      - "Integrated machine learning tools for semiconductor device modeling and optimization."
+      - "Deliver 1–2 popular science presentations annually on topics such as photonic crystals, optics, band diagrams, and machine learning."
+      - "Authored 13+ granted patents in photonic devices, semiconductor process optimization, and data-driven modeling."
+  - title: "Postdoctoral Researcher"
+    company: "Laboratoire Hubert Curien"
+    location: "Saint Etienne"
+    date: "Jan 2016 – Mar 2018"
+    bullets:
+      - "Optimized algorithms for silicon photonics simulations."
+      - "Performed statistical modeling for device performance analysis."
+      - "2 peer-reviewed publications."
+
+education:
+  - degree: "PhD Characterization of semiconductor, Analysis of thin films and nanomaterials"
+    school: "École Doctorale EEATS, Grenoble INP IMEP-LAHC"
+    date: "oct 2011 - feb 2015"
+    details:
+      - "Multi-technique characterization, statistical modeling, pattern recognition."
+      - "4 peer-reviewed publications."
+  - degree: "Master 2 Energy Physics"
+    school: "Grenoble INP-UGA"
+    date: "2010 - 2011"
+  - degree: "Master 1 Physics"
+    school: "Grenoble Joseph Fourier "
+    date: "2009 - 2010"
+  - degree: "Licence Physics"
+    school: "Université de Picardie Jules Verne"
+    date: "2007-2009 (L1/L2/L3)"
