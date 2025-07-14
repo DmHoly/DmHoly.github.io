@@ -1,5 +1,5 @@
 ---
-permalink: /publications/
+permalink: /Publications/
 title: "Publications"
 layout: single
 author_profile: true

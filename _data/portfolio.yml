@@ -1,0 +1,13 @@
+
+- title: "ML Starter — Titanic, Penguins & Iris"
+  image: /assets/images/ml_starter.png
+  description: "A hands-on, beginner-friendly machine learning tutorial covering three classic datasets: Titanic survival, Palmer penguin species, and Iris flower classification."
+  url: "/projects/ml-starter/"
+- title: "Physics-Informed Neural Networks"
+  image: /assets/images/pinns.png
+  description: "Development of PINNs to solve PDEs by combining deep learning and physical modeling."
+  url: "/projects/pinns/"
+- title: "Data Automation Platform"
+  image: /assets/images/dataPipe.png
+  description: "An end-to-end solution for data pipeline automation and analytics."
+  url: "/projects/data-automation/"
