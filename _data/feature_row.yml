@@ -1,4 +1,3 @@
-
 - image_path: /assets/images/pinns.png
   title: "Physics-Informed Neural Networks"
   excerpt: "Development of PINNs to solve partial differential equations, combining deep learning with physical modeling for robust and interpretable simulations."
