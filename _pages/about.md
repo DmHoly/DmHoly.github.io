@@ -16,7 +16,8 @@ mehdi.daanoune@gmail.com
 
 ### Profile
 
-Senior R&D Engineer specializing in numerical modeling, simulations, and data science. 7+ years experience, 14 patents, creative problem solver.
+Designing and deploying advanced modeling tools for photonics and semiconductor R&D.
+Strong experience in data-driven simulation, machine learning integration, and collaborative research.
 
 ---
 
