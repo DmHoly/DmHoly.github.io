@@ -16,7 +16,7 @@
 title: "Mehdi Daanoune | Portfolio"
 email: "mehdi.daanoune@gmail.com"
 description: >-
-  Senior R&D Engineer | Modeling, Simulation & Data Science | 14 patents | Python, Machine Learning, Innovation.
+  Senior R&D Engineer | Modeling, Simulation & Data Science | 13+ patents | Python, Machine Learning, Innovation.
 twitter_username: 
 github_username: DmHoly
 minimal_mistakes_skin: mint
@@ -52,14 +52,13 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
 author:
   name   : "Mehdi Daanoune"
   avatar : "/assets/images/avatar.png"
-  bio    : "Senior R&D Engineer specializing in modeling, simulation & data science. 14 patents. Based in Grenoble, France."
+  bio    : "Senior R&D Engineer specializing in physical modeling (optics and semiconductors), automation, advanced analytics, and machine learning."
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
@@ -82,6 +81,14 @@ footer:
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
       url: "mailto:mehdi.daanoune@gmail.com"
+
+header:
+  overlay_image: /assets/images/banner.png 
+  overlay_filter: 0.2 # effet foncé
+  caption: "Welcome to my Portfolio"
+  actions:
+    - label: "Découvrir mes projets"
+      url: "/projects/"
 
 defaults:
   # _posts
