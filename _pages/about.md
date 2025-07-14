@@ -9,7 +9,6 @@ author_profile: true
 
 **Senior R&D Engineer | Modeling, Simulation & Data Science**  
 Grenoble, France  
-[LinkedIn](https://linkedin.com/in/mehdi-daanoune)  
 mehdi.daanoune@gmail.com
 
 ---
@@ -18,14 +17,6 @@ mehdi.daanoune@gmail.com
 
 Designing and deploying advanced modeling tools for photonics and semiconductor R&D.
 Strong experience in data-driven simulation, machine learning integration, and collaborative research.
-
----
-
-## Education
-
-- **PhD Electronics**, École Doctorale EEATS, 2014  
-- **MSc Energy Physics**, Grenoble INP-UGA, 2011  
-- **BSc Physics**, Université de Picardie Jules Verne, 2009
 
 ---
 
@@ -71,6 +62,14 @@ I am the author or co-author of several peer-reviewed scientific publications in
 - [See all publications on Google Scholar](https://scholar.google.com/scholar?hl=fr&as_sdt=0%2C5&q=Daanoune+mehdi+&btnG=)
 
 <sub>*Google Scholar is a public index of peer-reviewed scientific articles.*</sub>
+
+---
+
+## Education
+
+- **PhD Electronics**, École Doctorale EEATS, 2014  
+- **MSc Energy Physics**, Grenoble INP-UGA, 2011  
+- **BSc Physics**, Université de Picardie Jules Verne, 2009
 
 ---
 
