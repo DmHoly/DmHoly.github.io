@@ -1,0 +1,48 @@
+---
+layout: default    # Hérite du layout CV (header/footer)
+---
+
+<style>
+  .tutorial-container {
+    max-width: 1600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    line-height: 1.6;
+  }
+  .tutorial-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* Gradient from bottom (teal) to top (header color) */
+    background: linear-gradient(
+      to top,
+    rgb(48, 227, 203) 0%,     /* bottom semi-transparent accent #22B7CA */
+    #f2f5f5 100%                         /* top: same as header bg */
+    );
+    z-index: -1;
+    border-radius: inherit;
+  }
+  .tutorial-container h1 {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .tutorial-container img {
+    display: block;
+    max-width: 100%;
+    margin: 2rem auto;
+  }
+  .tutorial-container h2 {
+    margin-top: 2.5rem;
+  }
+</style>
+
+<div class="tutorial-container">
+  <h1>{{ page.title }}</h1>
+  {{ content }}
+</div>

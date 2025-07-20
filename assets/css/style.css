@@ -1,0 +1,23 @@
+.paper-wrapper {
+  max-width: 720px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #faf8f2;
+  /* optional: texture */
+  /* background-image: url('/assets/images/paper-texture.png'); */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  line-height: 1.6;
+}
+.paper-wrapper h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.paper-wrapper img {
+  display: block;
+  max-width: 100%;
+  margin: 2rem auto;
+}
+.paper-wrapper h2 {
+  margin-top: 2.5rem;
+}
